@@ -1,0 +1,5 @@
+print("Please fill out the blanks below!")
+print("__(name)__'s favorite musician is __(artist)__.")
+name = input("What is your name?")
+artist = input("Who is your favorite musician?")
+print("%s's favorite musician is %s." % (name,artist))
