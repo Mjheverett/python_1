@@ -3,5 +3,6 @@ title = "Electric Boogaloo"
 counter = 0
 
 while counter < len(title):
-    print(title[counter])
+    if (counter % 2) == 0 and title[counter] != " ":
+        print(title[counter])
     counter += 1
